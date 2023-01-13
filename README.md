@@ -76,3 +76,5 @@ Reference Site
 ● **Modified scout MINI for SLAM recognition**
 
  ● **Video of my office that Use SSL_SLAM // Reference Site <<https://github.com/wh200720041/ssl_slam>>** 
+ 
+ <img src = "https://user-images.githubusercontent.com/114387340/212266210-5e3b3b89-d603-4253-a4a1-4a92302144d7.gif" width="60%" height="60%">
