@@ -12,7 +12,6 @@ import time
 import os
 
 cmd_pub = rospy.Publisher("/cmd_vel", Twist, queue_size = 10)
-# img_pub = rospy.Publisher('chatter', String, queue_size = 10)
 height = 0
 width = 0
 
@@ -28,7 +27,7 @@ check_path = True
 check_result = 0 # 0 직진 1 좌 2 우
 
 speed = 0   #msg.linear.x
-angle = 0      #msg.angular.z
+angle = 0   #msg.angular.z
 turn = 0.1
 
 t1 = 0
@@ -38,14 +37,9 @@ def Direction(LEFT_MEAN, FRONT_MEAN, RIGHT_MEAN):
     global speed, angle, turn, check_result, check_path, check_mod, Find_QR, Check_QR, latest_QR, t1
 
     os.system('clear')
-    # print(f'speed : {speed}, angle : {angle}')
-    # print('check_result : ',check_result)
     print(f'L: {LEFT_MEAN}, F: {FRONT_MEAN}, R: {RIGHT_MEAN}')
-    # print('check_path : ', check_path)
     print(f'찾을 QR : {Find_QR}')
-    # print(f'check_mod : {check_mod}')
     print(f'현재 인식되는 QR : {Check_QR}')
-    # print(f'millis : {millis}')
     
     if check_mod == 2:
         speed = 0.06
@@ -92,7 +86,7 @@ def Direction(LEFT_MEAN, FRONT_MEAN, RIGHT_MEAN):
                     turn = turn * -1 
 
 
-def check_LR(): # 좌우 ㅇㅇ 
+def check_LR():
     global check_result
     if LEFT_MEAN > RIGHT_MEAN:
         check_result = 2
@@ -107,7 +101,6 @@ def Moving():
     msg.angular.z = angle
     cmd_pub.publish(msg)
 
-# lader_sensor 키면 초반 설정 함수
 def Ladar_setting():
     # Configure depth and color streams
     pipeline = rs.pipeline()
