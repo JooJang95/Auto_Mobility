@@ -54,6 +54,7 @@ Reference Site
             ● Intel NUC : 1
             ● Intel L515 3D Rider sensor : 1
             
+● ** ScoutMini Hardware Design **
 <img src = "https://user-images.githubusercontent.com/114387340/212267080-f121eea1-542c-4d01-b526-6996e3e68b75.png" width="70%" height="70%">
             
 ● **Video with QR code Recognition**
