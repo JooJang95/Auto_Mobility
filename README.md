@@ -70,8 +70,7 @@ Reference Site
             
 ● **Express lidar sensor values as video with OpenCV**
 
-<img src = "[https://user-images.githubusercontent.com/114387340/212251580-582f83de-6be2-49f7-81de-90d4390abf45.gif](https://user-images.githubusercontent.com/114387340/212251580-582f83de-6be2-49f7-81de-90d4390abf45.gif)
-" width="60%" height="60%">
+<img src = "https://user-images.githubusercontent.com/114387340/212251580-582f83de-6be2-49f7-81de-90d4390abf45.gif" width="60%" height="60%">
 
 ● **Modified scout MINI for SLAM recognition**
 
