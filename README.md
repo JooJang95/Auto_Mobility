@@ -64,10 +64,10 @@ Reference Site
 <img src = "https://user-images.githubusercontent.com/114387340/212251484-8506a82d-439c-4192-bf54-ffa5c8fe7f13.gif" width="60%" height="60%">
 
             # Explanation - Use pyzbar library #
-            1) Create QR code (Start, A, B, C)
-            2) When webcam1 recognizes Start QR, scout MINI stops
-            3) When A or B or C QR is recognized in webcam 2, it moves to the recognized QR position and stops
-            4) After arriving at the recognized QR position, remove the QR on webcam 2 and resume driving
+            1) waiting
+            2) QR recognition
+            3) Entered QR search
+            4) If you find the same QR, you will be queued again.
             
 ● **Express lidar sensor values as video with OpenCV**
 
