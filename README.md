@@ -47,7 +47,7 @@ Reference Site
         4. install cv2
         5. install time
         
-● ** Mapping with the Scout Mini **
+● ** Construction of logistics/service system through location recognition using QR marker recognition algorithm **
 
             # Parts Used #
             ● Scout mini : 1
